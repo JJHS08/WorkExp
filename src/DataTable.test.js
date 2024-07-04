@@ -14,9 +14,9 @@ test('renders item zero from data', () => {
   checkElement("Name: hammer", "P");
   checkElement("Size: medium", "P");
   checkElement("Department: tools", "P");
-  checkElement("Proce: 12.5", "P");  
+  checkElement("Price: 12.5", "P");  
   checkElement("Next", "BUTTON");
-
+  checkElement("Previous", "BUTTON");
 });
 
  test('clicking the next button shows item 1', async () => {
@@ -28,6 +28,6 @@ test('renders item zero from data', () => {
     button.click();
 
     await waitFor(() => {
-        expect(screen.getByText("Proce: 10.5")).toBeInTheDocument();
+        expect(screen.getByText("Price: 10.5")).toBeInTheDocument();
       });
   });

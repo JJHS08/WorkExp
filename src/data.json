@@ -1,7 +1,512 @@
-﻿[{ "name": "hammer",      "pic": "hammer_medium.jpg",      "size": "medium", "department": "tools", "price": 12.50},
- { "name": "hammer",      "pic": "hammer.jpg",             "size": "small",  "department": "tools", "price": 10.50},
- { "name": "hammer",      "pic": "hammer_large.jpg",       "size": "large",  "department": "tools", "price": 18.50},
- { "name": "screwdriver", "pic": "screwdriver_small.jpg",  "size": "small",  "department": "tools", "price": 3},
- { "name": "screwdriver", "pic": "screwdriver_medium.jpg", "size": "medium", "department": "tools", "price": 4},
- { "name": "screwdriver", "pic": "screwdriver_large.jpg", "size": "large", "department": "tools", "price": 4},
- { "name": "screwdriver set", "pic": "screwdriver_set.jpg", "size": "set",   "department": "tools", "price": 23.45} ]
+﻿[
+  {
+    "name": "hammer",
+    "pic": "hammer_medium.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 12.5,
+    "ratings": [5, 4, 4.5, 3, 5, 2, 2, 2, 2, 5, 1, 5, 4],
+    "type": "claw"
+  },
+  {
+    "name": "hammer",
+    "pic": "hammer.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 10.5,
+    "ratings": [2, 2, 2, 3, 3, 3, 4, 3, 2],
+    "type": "club"
+  },
+  {
+    "name": "hammer",
+    "pic": "hammer_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 18.5,
+    "ratings": [1.5, 1.1, 5, 2, 5, 3.5, 4, 4, 1, 1, 2],
+    "type": "driver"
+  },
+  {
+    "name": "screwdriver",
+    "pic": "screwdriver_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 3,
+    "ratings": [],
+    "type": "phillips"
+  },
+  {
+    "name": "screwdriver",
+    "pic": "screwdriver_medium.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 4,
+    "ratings": [4.5, 4, 4, 5, 5, 6, 4, 4, 3, 3.5, 2.5, 4],
+    "type": "flathead"
+  },
+  {
+    "name": "screwdriver",
+    "pic": "screwdriver_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 4,
+    "ratings": [5, 5, 5, 5, 5, 5, 3, 4, 5, 2, 1, 5, 5, 5, 5, 5, 5, 5],
+    "type": "phillips"
+  },
+  {
+    "name": "screwdriver",
+    "pic": "screwdriver_set.jpg",
+    "set": true,
+    "size": "M",
+    "department": "tools",
+    "price": 23.45,
+    "ratings": [3],
+    "type": "multi"
+  },
+  {
+    "name": "wrench",
+    "pic": "pipe_wrench.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 10.67,
+    "ratings": [4, 4, 4, 5, 5, 5, 2, 2, 1, 2, 3],
+    "type": "pipe"
+  },
+  {
+    "name": "wrench",
+    "pic": "pipe_wrench_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 20.9,
+    "ratings": [2, 3, 2, 4, 5, 1, 2, 3, 2.5, 3.5],
+    "type": "pipe"
+  },
+  {
+    "name": "wrench",
+    "pic": "pipe_wrench_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 23.45,
+    "ratings": [3, 4, 2.5, 3.5],
+    "type": "pipe"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 3,
+    "ratings": [1.5, 1, 1, 0, 0, 0.5],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_medium.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 4,
+    "ratings": [4.5],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 4,
+    "ratings": [5, 5, 5, 5, 5, 5, 5],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_set.jpg",
+    "set": true,
+    "size": "M",
+    "department": "tools",
+    "price": 2.5,
+    "ratings": [3, 2.5, 2, 1.5, 1, 5, 4],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_set_large.jpg",
+    "set": true,
+    "size": "L",
+    "department": "tools",
+    "price": 33.3,
+    "ratings": [2.5, 3, 4, 5, 2, 1, 3, 4, 3.5],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "spanner_set_small.jpg",
+    "set": true,
+    "size": "S",
+    "department": "tools",
+    "price": 23.45,
+    "ratings": [1, 0, 0.5],
+    "type": "combination"
+  },
+  {
+    "name": "spanner",
+    "pic": "ratchet_spanner.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 3.5,
+    "ratings": [2, 2.5, 3, 4, 5, 1],
+    "type": "ratchet"
+  },
+  {
+    "name": "spanner",
+    "pic": "adjustable_spanner.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 5.55,
+    "ratings": [1, 0],
+    "type": "adjustable"
+  },
+  {
+    "name": "spanner",
+    "pic": "adjustable_spanner_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 11.99,
+    "ratings": [2, 4, 5],
+    "type": "adjustable"
+  },
+  {
+    "name": "saw",
+    "pic": "handsaw_medium.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 7.89,
+    "ratings": [2, 3],
+    "type": "handsaw"
+  },
+  {
+    "name": "saw",
+    "pic": "handsaw_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 5.99,
+    "ratings": [1, 2],
+    "type": "handsaw"
+  },
+  {
+    "name": "saw",
+    "pic": "handsaw_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 12.99,
+    "ratings": [1, 1.5, 3],
+    "type": "handsaw"
+  },
+  {
+    "name": "saw",
+    "pic": "hacksaw_medium.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 4.56,
+    "ratings": [3, 4, 5, 2, 1],
+    "type": "hacksaw"
+  },
+  {
+    "name": "saw",
+    "pic": "hacksaw_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 5.64,
+    "ratings": [1.5, 0.5, 2.0],
+    "type": "hacksaw"
+  },
+  {
+    "name": "saw",
+    "pic": "hacksaw_large.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 10.99,
+    "ratings": [3, 2, 4, 4],
+    "type": "hacksaw"
+  },
+  {
+    "name": "saw",
+    "pic": "hacksaw_junior.jpg",
+    "set": false,
+    "size": "XS",
+    "department": "tools",
+    "price": 1.99,
+    "ratings": [5, 5, 4, 4],
+    "type": "hacksaw"
+  },
+  {
+    "name": "saw",
+    "pic": "pocket_saw_small.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 5.99,
+    "ratings": [2, 2.5, 3, 4, 5],
+    "type": "pocketsaw"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_combination.jpg",
+    "set": false,
+    "size": "S",
+    "department": "tools",
+    "price": 3,
+    "ratings": [2, 3, 4, 5, 1],
+    "type": "combination"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_side_cutting.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 4,
+    "ratings": [4, 4],
+    "type": "side cutting"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_needlenose.jpg",
+    "set": false,
+    "size": "L",
+    "department": "tools",
+    "price": 4,
+    "ratings": [1, 1.5, 1, 1.5, 2, 1],
+    "type": "needle nose"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_wire_stripper.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 2.5,
+    "ratings": [2, 2],
+    "type": "wire stripper"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_3_set.jpg",
+    "set": true,
+    "size": "M",
+    "department": "tools",
+    "price": 33.3,
+    "ratings": [3, 3.5, 4],
+    "type": "multi"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_7_set.jpg",
+    "set": true,
+    "size": "M",
+    "department": "tools",
+    "price": 23.45,
+    "ratings": [3.5, 4.5, 5],
+    "type": "multi"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_fencing.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 3.5,
+    "ratings": [5, 3, 4, 2],
+    "type": "funcing"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_lead_sealing.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 5.55,
+    "ratings": [1, 0.5],
+    "type": "lead sealing"
+  },
+  {
+    "name": "pliers",
+    "pic": "pliers_bird_banding.jpg",
+    "set": false,
+    "size": "M",
+    "department": "tools",
+    "price": 13.34,
+    "ratings": [5, 5, 5],
+    "type": "bird banding"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_aa.jpg",
+    "set": true,
+    "size": "AA",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [5, 5, 5],
+    "type": "batteries"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_aaa.jpg",
+    "set": true,
+    "size": "AAA",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [4, 3, 2],
+    "type": "batteries"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_9v.jpg",
+    "set": true,
+    "size": "9V",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [5, 5, 5],
+    "type": "batteries"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_c.jpg",
+    "set": true,
+    "size": "C",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [4, 4, 4],
+    "type": "batteries"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_d.jpg",
+    "set": true,
+    "size": "D",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [5, 5, 5],
+    "type": "batteries"
+  },
+  {
+    "name": "batteries",
+    "pic": "batteries_car.jpg",
+    "set": true,
+    "size": "12V",
+    "department": "batteries",
+    "price": 10.67,
+    "ratings": [5, 5, 5],
+    "type": "batteries"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_4way.jpg",
+    "set": false,
+    "size": "4 Way",
+    "department": "electrical",
+    "price": 1.67,
+    "ratings": [3, 2],
+    "type": "light"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_2way.jpg",
+    "set": false,
+    "size": "2 Way",
+    "department": "electrical",
+    "price": 1.23,
+    "ratings": [1, 5],
+    "type": "light"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_fuse.jpg",
+    "set": false,
+    "size": "single",
+    "department": "electrical",
+    "price": 2.23,
+    "ratings": [1, 5],
+    "type": "fuse"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_micro.jpg",
+    "set": false,
+    "size": "S",
+    "department": "electrical",
+    "price": 1.89,
+    "ratings": [3, 3.5],
+    "type": "micro"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_knife.jpg",
+    "set": false,
+    "size": "S",
+    "department": "electrical",
+    "price": 2.39,
+    "ratings": [3, 3.5],
+    "type": "knife"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_breaker.jpg",
+    "set": false,
+    "size": "S",
+    "department": "electrical",
+    "price": 4.87,
+    "ratings": [2.5, 4],
+    "type": "breaker"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_double_breaker.jpg",
+    "set": false,
+    "size": "M",
+    "department": "electrical",
+    "price": 6.32,
+    "ratings": [1, 2],
+    "type": "breaker"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_double_pole.jpg",
+    "set": false,
+    "size": "double",
+    "department": "electrical",
+    "price": 0.75,
+    "ratings": [4.5, 5],
+    "type": "micro"
+  },
+  {
+    "name": "switch",
+    "pic": "switch_dip.jpg",
+    "set": false,
+    "size": "double",
+    "department": "electrical",
+    "price": 0.75,
+    "ratings": [4.5, 5],
+    "type": "dip"
+  }
+]

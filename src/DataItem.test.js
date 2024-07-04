@@ -16,6 +16,6 @@ test('renders header text', () => {
   checkElement("Name: hammer", "P");
   checkElement("Size: medium", "P");
   checkElement("Department: tools", "P");
-  checkElement("Proce: 12.5", "P"); 
+  checkElement("Price: 12.5", "P"); 
 
 });
